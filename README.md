@@ -7,7 +7,7 @@ Exercise 5.6.1 - Java
 1. What is the type of collection used in the exercise?
 Queue
 2. What are the different ways of iterating through a collection?
-Using the interator() 
+Using the iterator() 
 3. How do you find out the size of a collection?
 Check queue.size()
 4. How do you add an item to a collection? What happens if you try to add an item to a collection that is already full?
