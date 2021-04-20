@@ -11,7 +11,7 @@ Using the iterator()
 3. How do you find out the size of a collection?
 Check queue.size()
 4. How do you add an item to a collection? What happens if you try to add an item to a collection that is already full?
-Type in add(). If there is no space left, it returns an error (IllegalStateException)
+Type in add(). If there is no space left, it returns an error (IllegalStateException), but this only happens if the size is defined beforehand.
 5. How do you remove an item to a collection? What happens if you try to remove an item that does not exist in the collection?
 Type in remove(). If you try to remove an item, NoSuchElement will display, meaning the queue is empty.
 6. Change the implementation of a FIFO queue to a LIFO queue in 5.6.1.
